@@ -97,6 +97,8 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+# GitHub pages temporary:
+!dist/bundle.js
 
 # Gatsby files
 .cache/
