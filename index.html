@@ -11,25 +11,51 @@
     <title>Esercizio per dettato melodico</title>
   </head>
   <body>
-    <h1>Esercizio per dettato melodico</h1>
+<div class="container">
+
+  <h1>Esercizio per dettato melodico</h1>
+
+    <div class="form-group row">
+      <label for="example-number-input" class="col-2 col-form-label">Dictate using</label>
+      <div class="col-10">
+        <select class="form-control" id="dictate-using">
+          <option selected disabled="disabled">Loading MIDI devices...</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="example-number-input" class="col-2 col-form-label">Answer using</label>
+      <div class="col-10">
+        <select class="form-control" id="answer-using">
+          <option selected disabled="disabled">Loading MIDI devices...</option>
+        </select>
+      </div>
+    </div>
 
     <div class="form-group row">
       <label for="example-number-input" class="col-2 col-form-label">Min</label>
-      <div class="col-10">
+      <div class="col-5">
         <input class="form-control" type="number" value="55" id="min-number-input">
+      </div>
+      <div class="col-5">
+        <label id="min-number-input-name" class="col-2 col-form-label"></label>
       </div>
     </div>
 
     <div class="form-group row">
       <label for="example-number-input" class="col-2 col-form-label">Max</label>
-      <div class="col-10">
+      <div class="col-5">
         <input class="form-control" type="number" value="84" id="max-number-input">
+      </div>
+      <div class="col-5">
+        <label id="max-number-input-name" class="col-2 col-form-label"></label>
       </div>
     </div>
 
     <div class="form-group row">
       <label for="example-number-input" class="col-2 col-form-label">Span</label>
-      <div class="col-10">
+      <div class="col-5">
         <input class="form-control" type="number" value="2" id="span-number-input">
       </div>
     </div>
@@ -61,5 +87,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div> 
+
+<div style="position: absolute; top: 0; right: 0;">    
+  <a href="https://github.com/tarilabs/eartraining202002"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_red_aa0000.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+</div>
+
   </body>
 </html>

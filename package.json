@@ -8,9 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matteo Mortari",
+  "license": "Apache-2.0",
   "dependencies": {
+    "@types/webmidi": "^2.0.4",
     "webmidi": "^2.5.1"
   },
   "devDependencies": {
